@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    /* filter: blur(10px); 
+    filter:brightness(100%);
+     filter: grayscale(30%); 
+     filter: opacity(20%); 
+    transition: 10s; */
+}
+
+img:hover{
+    /* filter: blur(0px);
+    filter:brightness(100%);
+    filter: grayscale(0%);
+    /* /* filter: opacity(20%);  */
+    /* transition: 25%; */ 
+    filter:drop-shadow(10px 10px 5px red);
+}

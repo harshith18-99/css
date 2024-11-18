@@ -1,0 +1,28 @@
+/* example for descendent selector */
+section p{
+color: red;
+}
+
+/* example for child selector */
+footer>p{
+color: orange;
+}
+
+/*example for adjacent sibling selector  */
+div+p{
+    color:yellowgreen
+}
+p+h1{
+    color:aqua
+}
+p+p{
+color: beige;
+}
+
+/* example for general sibling selector */
+div~p{
+color: aliceblue;
+}
+p~p{
+color: brown;
+}

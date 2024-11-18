@@ -1,0 +1,25 @@
+/* ID */
+#love{
+    color:red;
+}
+
+/* class */
+.Hate{
+    color:red
+}
+
+/* grouping */
+#love,.Hate{
+    color: aqua;
+}
+
+/* tag name */
+aside{
+    color: red;
+}
+
+/* universal attribute */
+*{
+   color:orangered; 
+   background-color: black;
+}

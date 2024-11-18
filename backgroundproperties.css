@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border:10px solid black;
+    height: 100vh;
+    background-color: lightpink;
+
+
+    background-image: url('https://pngfre.com/wp-content/uploads/1000072437-1024x682.png');
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+
+    background-position: center;
+    background-position: top center;
+    background-position: top left;
+    background-position: top right;
+    background-position: 6px;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: bottom center;
+
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    background-size: 500px 500px;
+    background-size: 500px auto;
+    
+
+    background: yellow url('https://pngfre.com/wp-content/uploads/1000072437-1024x682.png')no-repeat center fixed;
+    
+}

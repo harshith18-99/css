@@ -1,0 +1,29 @@
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color:aqua;
+} 
+
+ p::before{
+    content:"❤️";
+}
+
+P::after{
+    content: "❤️";
+}
+
+p::selection{
+    color:aquamarine;
+    background-color: black;
+}
+
+li::marker{
+    content:"💋"
+}
+
+input::placeholder{
+    color:red;
+}
+

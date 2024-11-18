@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 6px solid red;
+    display: block;
+    display: inline;
+    height: 900px;
+    width: 900px;
+    margin: 60px;
+    padding:20px;
+}
+
+b{
+    border: 6px solid black;
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: 60px;
+    padding:30px;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    display: inline-block;
+}
+section{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    display: block;
+
+}
+#red{
+    background-color: red;
+
+}
+#black{
+    background-color: black;
+    display: none;
+    visibility: hidden;
+}
+#blue{
+    background-color: blue;
+}

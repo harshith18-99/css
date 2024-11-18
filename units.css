@@ -1,0 +1,32 @@
+#parent{
+    height: 500px;
+    background-color: aquamarine;
+}
+#pixel{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+#percentage
+{
+    width: 60%;
+    height: 200px;
+    background-color: brown;
+}
+
+article{
+    height: 60vh;
+    width: 50vw;
+    background-color: black;
+}
+html
+{
+    font-size: 32px;
+}
+
+div p{
+    font-size: 1rem;
+}
+p{
+    font-size: 32px;
+}

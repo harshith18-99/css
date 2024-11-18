@@ -1,0 +1,40 @@
+/* :hover element */
+h1:hover{
+    color: red; 
+}
+
+/* :focus */
+input:focus{
+    color:wheat;
+    background-color: blueviolet;
+}
+/* :active */
+a:active{
+    color:red;
+ }
+
+/* :visited */
+a:visited{
+    color:black;
+}
+
+div p:first-child{
+    color:red;
+}
+
+div p:last-child{
+    color:blueviolet;
+}
+
+div p:nth-child(5){
+    color:brown;
+}
+li:not(#exclude)
+{
+    color: white;
+    background-color: black;
+}
+input:checked+label
+{
+    color: red;
+}

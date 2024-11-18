@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+section{
+    height: 300px;
+    width: 30px;
+    background-color: black;
+    color:white;
+    overflow: visible;
+    overflow: scroll;
+    overflow: hidden;
+    overflow:auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}

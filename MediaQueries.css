@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    background-color: green;
+    color: red;
+}
+@media (min-width:500px) and (max-width:700px){
+    body{
+        background-color: #7777;
+    }
+    h1{
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+}

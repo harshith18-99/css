@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#parent{
+    height: 500px;
+    width: 600px;
+    background-color: black;
+    border: 5px solid red;
+}
+#child{
+    height: inherit;
+    width:200px;
+    background-color: blue;
+    border: inherit;
+}

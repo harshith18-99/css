@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: small;
+    font-size: x-small;
+    font-size: large;
+    font-size: larger;
+    font-size: 100px;
+
+}
+
+p{
+    font-style: oblique;
+    font-style: normal;
+    font-style: italic;
+}
+
+/* to add thickness of content */
+p{
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}

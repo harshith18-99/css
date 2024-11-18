@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+}
+#one{
+flex-basis: 15%;
+border: 2px solid blue;
+}
+#two{
+flex-basis: 60%;
+border: 2px solid blue;
+}
+#three{
+flex-basis: 25%;
+border: 2px solid blue;
+}

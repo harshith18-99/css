@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* linear gradient */
+body{
+    /* border: 10px dotted red; */
+    height: 100vh;
+    background: linear-gradient(red,blue, black, pink, yellow);
+    /* to bottom is default means it ends at bottom  */
+    background: linear-gradient(to bottom,violet,blue,black,yellow,red,orange,skyblue);
+
+    background: linear-gradient(to left, white,black,blue,red,yellow,orange,black);
+    background: linear-gradient(to top, white,black,blue,red,yellow,orange,black);
+    background: linear-gradient(to right, white,black,blue,red,yellow,orange,black);
+
+    background: linear-gradient(to  top left, white,black,blue,red,yellow,orange,black);
+    background: linear-gradient(to  top right, white,black,blue,red,yellow,orange,black);
+    background: linear-gradient(to bottom left, white,black,blue,red,yellow,orange,black);
+    background: linear-gradient(to bottom right, white,black,blue,red,yellow,orange,black);
+
+
+/* starting percentage  ending percentage */
+    background: linear-gradient( white 0% 10%,black 10% 20%,blue 20% 30%,red 30% 40%,yellow 40% 50%);
+
+/* it will repeat again and again */
+    background: repeating-linear-gradient(blue 0% 10%,black 10% 20%);
+background-image: repeating-linear-gradient(blue 0% 10%,black 10% 20%);;
+
+
+
+/* radial gradient */
+background: radial-gradient(ellipse,red ,white,black,blue,orange);
+background: radial-gradient(circle,red,white ,yellow,orange);
+background: repeating-radial-gradient(red 0% 10%,white 10% 20% ,yellow 30% 40%,blue 40% 50%);
+background: repeating-radial-gradient( white 0% 10%,black 10% 20%,blue 20% 30%,red 30% 40%,yellow 40% 50%);
+
+}
+/* conic gradient */
+div{
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    margin-top: 120px;
+    border-radius: 50%;
+    background: conic-gradient(red,blue,black,white,green);
+    background: repeating-conic-gradient(red 0% 10%,blue 10% 20%);
+}

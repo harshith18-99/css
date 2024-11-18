@@ -1,0 +1,58 @@
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    top: 90px;
+    right: 200px;
+
+}
+section{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+    top: 150px;
+    left:580px;
+}
+
+#left_eye{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    position: relative;
+    border-radius: 50%;
+    top: 69px;
+    left: 57px;
+}
+#right_eye{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: relative;
+    border-radius: 50%;
+    top:19px;
+    left: 200px;
+}
+#mouth{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: relative;
+    border-radius: 50%;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    top:70px;
+    left:122px;
+} */
+
+/* position fixed */
+nav{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left:500px;
+}

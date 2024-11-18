@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height:500px;
+    min-width:800px;
+    animation:kohli 5s 0s ease infinite alternate;
+}
+article{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+@keyframes kohli{
+    0%{
+        transform: translateX(0%);
+    }25%{
+        transform: translateX(-100%);
+    }50%{
+transform: translateX(-200%);
+    }
+    75%{
+transform: translateX(-300%);
+    }100%{
+transform: translateX(-300%);
+    }
+}
+   

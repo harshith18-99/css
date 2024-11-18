@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation-name: harshith;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation: harshith 1s 2s linear 2 normal;
+}
+@keyframes harshith{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size: 100px;
+    }
+}
